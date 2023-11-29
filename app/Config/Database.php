@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => '',
+        'hostname'     => 'mariadb11.viacomkft.hu',
+        'username'     => '16153_theapp',
         'password'     => '',
-        'database'     => '',
+        'database'     => '16153_theapp',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
